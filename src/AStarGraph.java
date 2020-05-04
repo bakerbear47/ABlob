@@ -57,7 +57,7 @@ public class AStarGraph {
 
                 Neighbor = CurrentNeighbors.get(i);
 
-                if(Neighbor && (Current.geth() + CurrentNeighbors.get(i).getNeighbourDistance() < Neighbor.geth())){
+                //if(Neighbor && (Current.geth() + CurrentNeighbors.get(i).getNeighbourDistance() < Neighbor.geth())){
                     Current.getPrev();
                 }
 
@@ -79,7 +79,7 @@ public class AStarGraph {
                     //Current.setPrev(Current.Neighbor) = Current;
                     //Current.getNeighbours().get(i).getPrev()= Current;
                 }
-            }
+
 
 
 
